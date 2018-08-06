@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "我的第一篇"
+subtitle:   "做个实验"
+date:       2018-08-06
+author:     "杨绮"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - 健身
+  
+---
+随便写写
+
+
