@@ -6,7 +6,7 @@ email: yangalpha@live.cn
 description: ""
 keyword: ""
 url: ""              # your host, for absolute URL
-baseurl: "https://yangalpha.github.io/"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
