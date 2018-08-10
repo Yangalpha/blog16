@@ -55,15 +55,9 @@ duoshuo_username: YANGALPHA BLOG
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
-#<!-- Global site tag (gtag.js) - Google Analytics -->
-#<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123715389-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-123715389-1');
-</script>
+# Google Analytics
+ga_track_id: 'UA-123715389-1'            # Format: UA-xxxxxx-xx
+ga_domain: yangalpha@live.cn
 
 
 # Sidebar settings
