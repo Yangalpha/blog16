@@ -231,4 +231,18 @@ layout: default
         }
     }
 </style>
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'yangalpha',
+    repo: 'https://github.com/Yangalpha/blog16',
+    oauth: {
+        client_id: 'a82fa705fc6527dafa43',
+        client_secret: 'eaf3d0c7ab5e4d3c8e382d275c5e87f935692399',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 {% endif %}
