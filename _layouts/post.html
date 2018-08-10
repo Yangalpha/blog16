@@ -231,11 +231,12 @@ layout: default
         }
     }
 </style>
-<div id= {%= page.date %}></div>
+<div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
+    id: '<%= page.date %>'
     owner: 'yangalpha',
     repo: 'blog16',
     oauth: {
